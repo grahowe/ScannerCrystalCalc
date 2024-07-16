@@ -1,7 +1,7 @@
 # ScannerCrystalCalc
 A calculator for old-school crystal-controlled scanners
 
-**How it works**\n
+**How it works**
 In the 1970s and 1980s, many radio scanners were controlled by 2-pin oscillator modules called "crystals." Many of us amateurs still use crystals for frequency control.
 
 Crystals are cut according to their resonant frequencies, so as the crystal gets thinner, the frequency gets higher. Unfortunately, crystals will only work up to a certain frequency range, usually 50 or 60MHz, before they begin to become too fragile to oscillate over long periods of time.
