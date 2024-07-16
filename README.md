@@ -1,7 +1,7 @@
 # ScannerCrystalCalc
 A calculator for old-school crystal-controlled scanners
 
-**How it works**
+***How it works***
 
 In the 1970s and 1980s, many radio scanners were controlled by 2-pin oscillator modules called "crystals." Many of us amateurs still use crystals for frequency control.
 
