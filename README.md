@@ -9,12 +9,13 @@ Crystals are cut according to their resonant frequencies, so as the crystal gets
 
 With the advent of PLL and even DDS, crystals for frequency control have gone by the wayside, meaning that crystals are only used for applications for timing, such as in computers.
 
-**How Do We Solve This?**/n
+***How Do We Solve This?***
+
 So the big dilemma we have here is that crystals cut for 155MHz would break the instant voltage is applied, so we rely on what is known as overtones or harmonics. Crystals will usually oscillate on 3rd, 5th, or even 7th overtones. If you're musically inclined like me, frequencies that vibrate and resonate release what are known as overtones. These become other frequencies, usually in multiples. So, a 16MHz crystal, found mainly on Arduino boards, has resonant frequencies at 32, 48, and 64MHz. They can even go up to 144MHz - right at the start of the 2m band!
 
 Scanners in the 70s and 80s relied upon circuitry that would filter and enhance these overtone frequencies. Let's take the frequency 156.210, a popular public safety frequency near me. To calculate the 156.210 crystal's ACTUAL frequency, we'd need to use this formula:
 
-*(156.210 - 10.7)/3 *
+(156.210 - 10.7)/3
 
 This would give us our base frequency that the crystal resonates at, which is around 48.50333MHz.
 
