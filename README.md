@@ -22,8 +22,12 @@ This would give us our base frequency that the crystal resonates at, which is ar
 Now, here's where it gets tricky...that's the VHF-Hi band...
 
 For VHF-Lo (30-50MHz): (Receive Freq) + IF
+
 For VHF-Hi (150-174MHz): (Receive Freq - IF)/3
+
 For UHF (450-470MHz): (Receive Freq - IF)/9
+
+
 
 IF is intermediate frequency. For Regency/RadioShack/generic scanners, use 10.7MHz. For Bearcat or explicitly stated scanners, use 10.8MHz.
 
